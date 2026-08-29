@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # AirTag / Find My BLE advertisement scanner with RSSI smoothing and
-# approximate distance estimation.
+# approximate distance estimation, By B3770 B4r4j45
 #
 # Based conceptually on AirTag-scan.sh from:
 # https://github.com/haxorthematrix/AirTag-tools
