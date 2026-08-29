@@ -51,7 +51,7 @@ Output modes (the last one specified wins):
 
 Scanner and distance options:
   -i, --interface hciN      Bluetooth interface (default: hci0)
-      --rssi1m DBM          Calibrated RSSI at one meter (default: -59)
+      --rssi1m DBM          Calibrated RSSI at one meter (default: -70)
       --path-loss N         Path-loss exponent, greater than 0 (default: 2.2)
       --ema ALPHA           EMA coefficient, greater than 0 and at most 1
                             (default: 0.25)
