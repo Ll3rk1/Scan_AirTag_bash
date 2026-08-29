@@ -18,7 +18,7 @@ SCRIPT_NAME=${0##*/}
 
 INTERFACE="hci0"
 MODE="pretty"
-RSSI_AT_1M="-59"
+RSSI_AT_1M="-70"
 PATH_LOSS="2.2"
 EMA_ALPHA="0.25"
 
