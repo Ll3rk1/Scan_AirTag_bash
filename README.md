@@ -28,20 +28,20 @@ sudo apt install bluez bluez-hcidump
 ## Run
 
 ```bash
-chmod +x AirTag-scan-enhanced.sh
-sudo ./AirTag-scan-enhanced.sh --pretty
+chmod +x AirTag-scan_bash.sh
+sudo ./AirTag-scan_bash.sh --pretty
 ```
 
 Other examples:
 
 ```bash
-sudo ./AirTag-scan-enhanced.sh --table -i hci0
-sudo ./AirTag-scan-enhanced.sh --raw
-sudo ./AirTag-scan-enhanced.sh --csv > airtags.csv
-sudo ./AirTag-scan-enhanced.sh --pretty --rssi1m -62 --path-loss 2.6 --ema 0.20
+sudo ./AirTag-scan_bash.sh --table -i hci0
+sudo ./AirTag-scan_bash.sh --raw
+sudo ./AirTag-scan_bash.sh --csv > airtags.csv
+sudo ./AirTag-scan_bash.sh --pretty --rssi1m -62 --path-loss 2.6 --ema 0.20
 ```
 
-Run `./AirTag-scan-enhanced.sh --help` for every option.
+Run `./AirTag-scan_bash.sh --help` for every option.
 
 CSV columns are:
 
